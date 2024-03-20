@@ -1,0 +1,15 @@
+#include<studio.h>
+int main(){
+    float velocidade = 900;
+    float distancia,tempo;
+    
+    printf("Digite a dsitancia a ser percorrida pelo avião");
+    scanf("%f" , &distancia);
+    
+    tempo = distancia / velocidade;
+    
+    printf("O tempo necessario para percorrer %.2f horas\n", distancia, tempo);
+    
+    return 0;
+    
+}
